@@ -7,6 +7,7 @@
 
 body{
     background-image: linear-gradient(rgba(174, 0, 255, 0.3),rgb(43, 4, 53)), url(../img/textura.jpg);
+    background-color: #000;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -25,7 +26,10 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 1000%;
-    margin: 50px; 
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 100px; 
+    
 }
 #janela{
     width: 100%;
@@ -34,6 +38,7 @@ body{
     display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
+    opacity: 0.3;
 }
 #menuUsuario{
     list-style-type: none;
@@ -42,12 +47,12 @@ body{
 
 #menuUsuario li {
 
-    
     width: 400px;
     text-align: left;
     background-color: rgb(56,56,56);
     padding: 15px;
     border-bottom: 1px solid #414141 ;
+    
     
 }
 
@@ -56,11 +61,26 @@ body{
     color: rgb(255, 255, 255);
     font-size: 2em;
     margin-left: 15px;
-    
-    
+  
+   
 }
 
 #menuUsuario li:hover{
     background-color:rgba(174, 0, 255, 0.3);
     cursor: pointer;
+}
+
+#menuUsuario #logout li:hover{
+    background-color:rgb(161, 1, 1);
+    cursor: pointer;
+}   
+
+
+#menuUsuario li i{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    margin-left: 15px;
+  
+   
 }
