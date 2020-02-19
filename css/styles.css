@@ -84,3 +84,10 @@ body{
   
    
 }
+#profileDisplay{
+    display: block;
+    width: 60%;
+    height: 25%;
+    margin: 80px auto;
+    border-radius: 100%;
+}

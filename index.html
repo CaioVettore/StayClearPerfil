@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StayClearPerfil</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/1e49a07c0b.js" crossorigin="anonymous"></script>
+    <script src="Js/index.js"></script>
+    <script src="https://kit.fontawesome.com/1e49a07c0b.js" crossorigin="anonymous"></script> 
 
 </head>
 
@@ -18,7 +19,13 @@
 
             <ul id="menuUsuario">
 
-                <img id="imagemPerfil" src="./img/silhouette-of-a-person-1799904.jpg">
+              
+
+
+                <img  alt="" onclick="previewImagem()" id="profileDisplay" src="img/silhouette-of-a-person-1799904.jpg">
+                <input type="file" onchange="displayImage(this)"  id="profileImage" name="profileImage" style="display: none;" > 
+                
+                
 
                 <li>
                     <i class="fas fa-user-circle" ></i>
@@ -62,6 +69,7 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </body>
 
